@@ -14,7 +14,7 @@ nav h1 {
   text-align: center;
 }
 .active:hover {
-  color: red; /* Change color on hover */
+  color: rgb(12, 1, 17);
 }
 
 .cart-message{

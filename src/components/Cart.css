@@ -18,7 +18,7 @@
   .cart-items {
     list-style-type: none;
     padding: 10;
-    align-items: center; /* Align button vertically */
+    align-items: center;
     display: subgrid;
   }
   

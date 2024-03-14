@@ -14,11 +14,8 @@ const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [cartMessage, setCartMessage] = useState('');
 
-
   const handleLogin = () => {
     setIsLoading(true);
-
-    // Simulate HTTP call
     setTimeout(() => {
       setLoggedIn(!loggedIn);
       setIsLoading(false);
@@ -50,7 +47,6 @@ const App = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/products">Products</NavLink>
-        {/* Render the "View Cart" NavLink only if user is logged in */}
         {loggedIn && (
           <NavLink to="/cart">View Cart</NavLink>
         )}
@@ -73,9 +69,7 @@ const App = () => {
         <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart}  />} />
         <Route path="*" element={<h4 className="error">Route Not Found</h4>} />
       </Routes>
-
     </div>
-    
   );
 };
 

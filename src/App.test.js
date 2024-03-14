@@ -11,14 +11,12 @@ describe('<App />', () => {
   it('renders error for unknown routes', () => {
     const wrapper = shallow(<App />);
     const unknownRoute = wrapper.find('Route[path="*"]');
-
     expect(unknownRoute.props().element).toEqual(<h4 className="error">Route Not Found</h4>);
   });
 
   it('renders error for unknown routes', () => {
     const wrapper = shallow(<App />);
     const unknownRoute = wrapper.find('Route[path="*"]');
-
     expect(unknownRoute.props().element).toEqual(<h4 className="error">Route Not Found</h4>);
   });
 });

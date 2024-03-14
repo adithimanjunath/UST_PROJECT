@@ -1,22 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap");
 
-/* General styles */
 body {
   margin: 20px;
   font-family: "Palatino";
-  color: #333;
-}
+  color: #333;}
 
 a {
-  color: rgb(23, 23, 23);
-}
+  color: rgb(23, 23, 23);}
 
 img {
-  max-width: 75%; /* Set max-width to 100% to ensure images are responsive */
+  max-width: 75%; 
   display: block;
   margin: 0 auto;
-  align-items: center;
-}
+  align-items: center;}
 
 nav {
   display: flex;
@@ -25,12 +21,10 @@ nav {
   max-width: 960px;
   margin: 0 auto;
   border-bottom: 1px solid #e2e2e2;
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px;}
 
 nav h1 {
-  margin-right: auto;
-}
+  margin-right: auto;}
 
 .description {
   text-align: center;

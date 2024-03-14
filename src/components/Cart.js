@@ -5,15 +5,13 @@ const Cart = ({ cartItems, removeFromCart }) => {
   const [savedCartItems, setSavedCartItems] = useState([]);
 
   useEffect(() => {
-    // Load saved cart items from localStorage when the component mounts
     const savedCart = localStorage.getItem('savedCart');
     if (savedCart) {
       setSavedCartItems(JSON.parse(savedCart));
     }
-  }, []); // This useEffect runs only once when the component mounts
+  }, []);
 
   useEffect(() => {
-    // Save cart items to localStorage whenever it changes
     localStorage.setItem('savedCart', JSON.stringify(cartItems));
   }, [cartItems]);
 

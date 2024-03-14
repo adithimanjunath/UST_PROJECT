@@ -5,7 +5,6 @@ const About = () => {
 
  const Navigate= useNavigate();
  
-  //component did mount
   useEffect(()=>{
     Navigate("info");
   },[])

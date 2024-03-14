@@ -58,39 +58,35 @@ const BudgetEstimation = () => {
         }
       });
     } else if (renovationType === 'garden') {
-      // Garden renovation calculation
       baseCost = parseInt(area) * 30;
       Object.entries(selectedOptions).forEach(([optionName, isSelected]) => {
         if (isSelected) {
           optionsSelected = true;
           if (optionName === 'landscaping') {
-            baseCost += parseInt(area) * 10; // Landscaping cost per square meter
+            baseCost += parseInt(area) * 10; 
           } else if (optionName === 'paving') {
-            baseCost += parseInt(area) * 15; // Paving cost per square meter
+            baseCost += parseInt(area) * 15; 
           } else if (optionName === 'irrigation') {
-            baseCost += 800; // Cost for irrigation
+            baseCost += 800;
           }
         }
       });
     } else if (renovationType === 'kitchen') {
-      // Kitchen renovation calculation
-      baseCost = parseInt(area) * 70; // Base cost per square meter for kitchen
-      // Additional costs for kitchen renovations
+      baseCost = parseInt(area) * 70; 
       Object.entries(selectedOptions).forEach(([optionName, isSelected]) => {
         if (isSelected) {
           optionsSelected = true;
           if (optionName === 'flooring') {
-            baseCost += 2000; // Cost for appliances
+            baseCost += 2000; 
           } else if (optionName === 'cabinets') {
-            baseCost += 1500; // Cost for cabinets
+            baseCost += 1500; 
           } else if (optionName === 'countertop') {
-            baseCost += 1000; // Cost for countertop
+            baseCost += 1000; 
           }
         }
       });
     }
-  
-    // Display error if no option is selected
+
     if (!optionsSelected) {
       setError('Please select at least one option.');
       return;

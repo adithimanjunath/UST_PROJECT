@@ -1,9 +1,7 @@
-/* BudgetEstimation.css */
-
 .budget-estimation-container {
   font-family: Arial, sans-serif;
-  width: 100%; /* Adjust container width */
-  max-width: 600px; /* Set maximum width if needed */
+  width: 100%;
+  max-width: 600px; 
   margin: auto;
   padding: 10px;
   border: 1px solid #ccc;
@@ -14,8 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto; /* Allow container height to adjust based on content */
-  margin-bottom: 40px; /* Increase margin-bottom if needed */
+  height: auto; 
+  margin-bottom: 40px;
 }
 
 
