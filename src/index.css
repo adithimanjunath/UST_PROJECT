@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap");
+
+/* General styles */
+body {
+  margin: 20px;
+  font-family: "Palatino";
+  color: #333;
+}
+
+a {
+  color: rgb(23, 23, 23);
+}
+
+img {
+  max-width: 75%; /* Set max-width to 100% to ensure images are responsive */
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 40px;
+}
+
+nav h1 {
+  margin-right: auto;
+}
+
+.description {
+  text-align: center;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.paragraph{
+  text-align: justify;
+}
+
+.active {
+  color: rgb(154, 3, 196);
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.cart-message {
+  position: fixed;
+  top: 15%;
+  left: 15px;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+

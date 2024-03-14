@@ -1,0 +1,64 @@
+/* BudgetEstimation.css */
+
+.budget-estimation-container {
+  font-family: Arial, sans-serif;
+  width: 100%; /* Adjust container width */
+  max-width: 600px; /* Set maximum width if needed */
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Allow container height to adjust based on content */
+  margin-bottom: 40px; /* Increase margin-bottom if needed */
+}
+
+
+.budget-estimation-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.budget-estimation-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.budget-estimation-input {
+  margin-left: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.budget-estimation-options {
+  margin-top: 10px;
+}
+
+.budget-estimation-button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.budget-estimation-button:hover {
+  background-color: #0056b3;
+}
+
+.budget-estimation-total {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}

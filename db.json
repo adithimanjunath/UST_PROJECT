@@ -1,0 +1,73 @@
+{
+  "products": {
+    "Garden": [
+      {
+        "name": "Haven Garden",
+        "price": "€2000.95",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/gazebo-ideas-2-65dfa51618da5.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "id": "g1",
+        "desc": "Tranquil retreat for relaxation and socializing, blending seamlessly with its surroundings to enhance any outdoor space with versatility."
+      },
+      {
+        "name": "Bliss Garden",
+        "price": "€2000.95",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/gazebo-over-the-water-amidst-lush-vegetation-in-royalty-free-image-1709155865.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "id": "g2",
+        "desc": "Transform your backyard into a serene paradise with this picturesque gazebo, surrounded by lush greenery and serene waters"
+      },
+      {
+        "name": "Tranquil Garden",
+        "price": "€2000.95",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/gazebo-ideas-4-65dfa5163c74d.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "id": "g3",
+        "desc": "Create a tranquil sanctuary in your backyard with this Zen-inspired garden gazebo, perfect for meditation and relaxation."
+      }
+    ],
+    "Room": [
+      {
+        "name": "Chic Style Living Room",
+        "price": "€2000.95",
+        "image": "https://i.pinimg.com/474x/fc/8e/5a/fc8e5a88a9f801e2ad78ba9567957a21.jpg",
+        "id": "t1",
+        "desc": "Ideal for infusing your home renovation project with a sense of sophistication and urban flair"
+      },
+      {
+        "name": "Cozy Style Living Room",
+        "price": "€2000.95",
+        "image": "https://i.pinimg.com/474x/77/34/34/7734342cc069e0d8b96c18539a7b5b2a.jpg",
+        "id": "t2",
+        "desc": "Transform your living space into a cozy corner perfect for relaxation and unwinding after a long day."
+      },
+      {
+        "name": "Slee Style Living Room",
+        "price": "€2000.95",
+        "image": "https://i.pinimg.com/474x/74/5c/c2/745cc2181cdc0b9ce0dfc4fbf66dd93e.jpg",
+        "id": "t3",
+        "desc": "Embrace modern elegance with this stylish room renovation, blending contemporary design with timeless sophistication."
+      }
+    ],
+    "Kitchen": [
+      {
+        "name": "Trendy Kitchen",
+        "price": "€2000.95",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/hbx120122flooring-001-647761e9280b5.jpg",
+        "id": "k1",
+        "desc": "Upgrade your kitchen with urban chic style, combining functionality with sleek design elements for a modern culinary space."
+      },
+      {
+        "name": "Charm Kitchen",
+        "price": "€2000.95",
+        "image": "https://www.bhg.com/thmb/II2WyUfXujPESx4lTapHzpwqVp0=/4000x0/filters:no_upscale():strip_icc()/MID7007182_SID27707_Kitchen_Overall-B-446-FsslSDOxqP1A-DsWl95D-i-d0fd14addc5f4a2f915808b1637805d4.jpg",
+        "id": "k2",
+        "desc": "Bring the charm of a modern farmhouse to your kitchen with rustic accents and contemporary conveniences."
+      },
+      {
+        "name": "Zenith Kitchen",
+        "price": "€2000.95",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcy3Fps-VzUo0q0n2VT77uTOUmuBU9plti0oeTXgnUOKoZjCp51g0XuQCvGjKghDwkeU&usqp=CAU",
+        "id": "k3",
+        "desc": "Achieve a sleek and minimalist aesthetic in your kitchen with clean lines, modern appliances, and ample storage solutions."
+      }
+    ]
+  }
+}

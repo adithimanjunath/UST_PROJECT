@@ -1,0 +1,44 @@
+.cart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-empty-message {
+    text-align: center;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 10;
+    align-items: center; /* Align button vertically */
+    display: subgrid;
+  }
+  
+  .cart-item {
+    margin-bottom: 20px;
+    align-items: center;
+    
+  }
+  
+  .remove-button {
+    background-color: #1e1919;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: #a11414;
+  }
+  
