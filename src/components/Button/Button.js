@@ -1,5 +1,5 @@
 import "./Button.css";
-import Loader from "../Loader/Loader";
+import Loader from "../Loader/Loader.js";
 
 const Button = (
   {value,

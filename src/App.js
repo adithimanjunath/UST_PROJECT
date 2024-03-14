@@ -1,12 +1,12 @@
 import React, { useState,useEffect } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home';
-import About from './components/About/about';
-import Products from './components/Products/Products';
-import Button from './components/Button/Button';
-import Cart from './components/Cart';
-import Info from './components/About/info/info';
-import BudgetEstimation from './components/About/budget/BudgetEstimation';
+import Home from './components/Home/Home.js';
+import About from './components/About/about.js';
+import Products from './components/Products/Products.js';
+import Button from './components/Button/Button.js';
+import Cart from './components/Cart.js';
+import Info from './components/About/info/info.js';
+import BudgetEstimation from './components/About/budget/BudgetEstimation.js';
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
