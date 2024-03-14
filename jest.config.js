@@ -1,4 +1,7 @@
 module.exports = {
   setupFiles: ["<rootDir>/src/setupTests.js"],
-  coverage: true
+  collectCoverageFrom: [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!<rootDir>/node_modules/"
+  ]
 };
