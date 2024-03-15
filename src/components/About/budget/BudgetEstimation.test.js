@@ -101,16 +101,6 @@ describe('BudgetEstimation Component should', () => {
     expect(wrapper.find('.budget-estimation-total').text()).toEqual('Total Budget: €55');
   });
 
-  it('calculate budget correctly for garden renovation with irrigation and landscaping', () => {
-    wrapper.find('select').simulate('change', { target: { value: 'garden' } });
-    wrapper.find('input[type="number"]').simulate('change', { target: { value: '1' } });
-    wrapper.find('input[name="paving"]').simulate('change', { target: { checked: true, name:"paving" } });
-    wrapper.find('input[name="irrigation"]').simulate('change', { target: { checked: true ,name:"irrigation" } });
-    wrapper.find('input[name="landscaping"]').simulate('change', { target: { checked: true ,name:"landscaping" } });
-    wrapper.find('button').simulate('click');
-    expect(wrapper.find('.budget-estimation-total').text()).toEqual('Total Budget: €855');
-  });
-
   it('calculate budget correctly for garden renovation with all 3 checkboxes selected', () => {
     wrapper.find('select').simulate('change', { target: { value: 'garden' } });
     wrapper.find('input[type="number"]').simulate('change', { target: { value: '1' } });
