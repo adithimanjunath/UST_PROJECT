@@ -1,3 +1,4 @@
+HOME RENOVATION WEBSITE
 
 This is home renovation website, created using React JS, CSS,Json for static data and tested uisng Jest and enzyme
 
