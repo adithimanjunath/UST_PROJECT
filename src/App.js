@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home.js';
 import About from './components/About/about.js';
